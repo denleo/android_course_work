@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="42dp"
+    app:cardElevation="5dp">
+
+    <LinearLayout
+        android:id="@+id/linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/search_item_shape"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/tv_ru_translate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:fontFamily="monospace"
+            android:text="розведка"
+            android:textColor="@color/white"
+            android:textSize="@dimen/rus_translate_headers"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_eng_example1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/colorBackground"
+            android:textStyle="bold"
+            android:textSize="@dimen/usage_examples" />
+
+        <TextView
+            android:id="@+id/tv_ru_example1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="1dp"
+            android:textColor="@color/colorBackground"
+            android:textStyle="bold"
+            android:textSize="@dimen/usage_examples" />
+
+        <TextView
+            android:id="@+id/tv_eng_example2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/colorBackground"
+            android:textStyle="bold"
+            android:textSize="@dimen/usage_examples" />
+
+        <TextView
+            android:id="@+id/tv_ru_example2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="3dp"
+            android:textColor="@color/colorBackground"
+            android:textStyle="bold"
+            android:textSize="@dimen/usage_examples" />
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
